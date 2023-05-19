@@ -52,16 +52,19 @@ main {
 
 #otherMenu {
     width: 350px;
-    height: 80px;
+    height: 100px;
     border: 0;
     border-radius: 20px;
     background-color: white;
 }
-
+/* 
+#otherMenu > a {
+    color: rgb(231, 76, 60);
+} */
 
 #chooseMenu {
     width: 350px;
-    height: 80px;
+    height: 100px;
     border: 0;
     border-radius: 20px;
     background-color: rgb(231, 76, 60);
