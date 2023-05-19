@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'TTWanjudaedunsancheB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/TTWanjudaedunsancheB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    font-family: TTWanjudaedunsancheB;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+#leftButton {
+    margin-left: 8%;
+}
+
+#otherType {
+    width: 200px;
+    height: 100px;
+    border: 0;
+    border-radius: 20px;
+}
+
+main {
+    background-color: #EEEEEE;
+    height: 650px;
+    border-radius: 10px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#korean {
+    color: rgb(231, 76, 60);
+    font-size: 100px;
+    text-align: center;
+    margin-left: 25%;
+}
+
+#otherMenu {
+    width: 350px;
+    height: 80px;
+    border: 0;
+    border-radius: 20px;
+    background-color: white;
+}
+
+
+#chooseMenu {
+    width: 350px;
+    height: 80px;
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(231, 76, 60);
+}
+
+#chooseMenu > a {
+    color: white;
+}
+
+#img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+img {
+    border-radius: 10px;
+    width: 350px;
+}
